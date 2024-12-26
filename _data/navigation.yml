@@ -1,12 +1,19 @@
-# main links
+# Main navigation links for the top menu
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  # Category Archive page link
+  - title: "Posts by Category"
+    layout: categories
+    permalink: /categories/
+    author_profile: true
+
+  # Yearly Archive page link
+  - title: "Posts by Year"
+    permalink: /year-archive/
+    layout: posts
+    author_profile: true
+
+  # Tag Archive page link
+  - title: "Posts by Tag"
+    permalink: /tags/
+    layout: tags
+    author_profile: true
